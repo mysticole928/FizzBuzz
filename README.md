@@ -63,7 +63,7 @@ for i in range(1, 101):
     print(value)
 ```
 
-This was harder than I expected.  Part of it was that, once I saw how refactor down to a single print statement, it was hard to build soemthing that I _knew_ to be inefficient.
+This was harder than I expected.  Part of it was that, once I saw how refactor down to a single print statement, it was hard to build something that I _knew_ to be inefficient.
 
 For this solution, I removed the newline character after printing either `Fizz` or `Buzz`.  However, I needed it back when I printed a number that was not multiple of 3 or 5.
 
